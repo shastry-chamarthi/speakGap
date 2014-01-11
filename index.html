@@ -60,7 +60,7 @@
 	
 	function changeLang() {
 		var yourSelect = document.getElementById('langs');
-        window.plugins.tts.setLanguage(yourSelect.options[yourSelect.selectedIndex].value, win, fail);
+        window.plugins.tts.setLanguage("en_US", win, fail);
 	}
 	
 	function win(result) {
